@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: 1px solid red;
+}
+#wrapper {
+    width: 970px;
+    margin: 0 auto;
+    height: auto;
+    background-color: blue;
+}
+#header{
+    display: inline-block;
+    height: 60px;
+}
+#header links {
+    display: inline-block;
+}
+#header links a{
+    text-align: right;
+    size: 22px;
+
+    
+}
+#mainbody1 {
+    background-color: white;
+    height: auto;
+    width: auto;
+    margin-top: 70px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 70px;
+    padding: 20px;
+    display: inline-block;
+
+}
+#top3{
+    display: inline-block;
+    width: 900px;
+    height: 198px;
+    background-color: white;  
+}
+#skiier {
+    width: 900px;
+    height: auto;
+}
+.services{
+    display: inline-block;
+    width: 289px;
+    height: auto;
+    background-color: steelblue;
+
+}
+.services img{
+    width: 20px;
+    height: auto;
+    vertical-align: bottom;
+}
+
+h1 {
+    font-size: 18px;
+    height: 50px;
+    position: relative;
+    top: 14px;
+    right: 10px;
+    
+}
+#mainbody1 button{
+    height: 20px;
+    widows: 40px;
+    border-radius: 3px;
+    background-color: aqua;
+}
+#mainbody2 {
+    background-color: white;
+    width: auto;
+
+}
+.bottom3 {
+    display: inline-block;
+    width: 250px;
+}
+#footer {
+    width: auto;
+    height: 50px;
+    background-color: slategrey;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+#footer a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.moreinfo {
+    height: 30px;
+    width: 50px;
+    color: white;
+    
+}
+    
