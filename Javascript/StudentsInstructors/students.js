@@ -1,5 +1,18 @@
-function studentinstructor(users)
+
+function studentinstructor()
 {
+    var users = {
+        'Students': [ 
+            {first_name:  'Michael', last_name : 'Jordan'},
+            {first_name : 'John', last_name : 'Rosales'},
+            {first_name : 'Mark', last_name : 'Guillen'},
+            {first_name : 'KB', last_name : 'Tonel'}
+         ],
+        'Instructors': [
+            {first_name : 'Michael', last_name : 'Choi'},
+            {first_name : 'Martin', last_name : 'Puryear'}
+         ]
+        }
 
     console.log("Students");
 
@@ -12,19 +25,6 @@ function studentinstructor(users)
        console.log(users.Instructors[i].first_name + " " + users.Instructors[i].last_name +" "+ (users.Students[i].first_name.length + users.Students[i].last_name.length));
    }
 }
+studentinstructor() ;
 
 
-var users = {
-    'Students': [ 
-        {first_name:  'Michael', last_name : 'Jordan'},
-        {first_name : 'John', last_name : 'Rosales'},
-        {first_name : 'Mark', last_name : 'Guillen'},
-        {first_name : 'KB', last_name : 'Tonel'}
-     ],
-    'Instructors': [
-        {first_name : 'Michael', last_name : 'Choi'},
-        {first_name : 'Martin', last_name : 'Puryear'}
-     ]
-    }
-
-    studentinstructor(users) ;
