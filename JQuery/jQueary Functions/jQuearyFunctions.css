@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0;
+    outline: solid 1px red;
+}
+#wrapper{
+    background: black;
+    width: 970px;
+    height: 1000px;
+    margin: 0px auto;
+    padding: 2px;
+}
+#stelvioclimb{
+    border-bottom: solid gray 3px;
+}
+h1{
+    color: white;
+    margin-left: 25px;
+    font-size: 70px;
+    font-style: italic;
+}
+p{
+    color: white;
+    margin: 10px 20px 10px 20px;
+    width: 800px;
+    height: 400px;
+}
+#navbar{
+    width: 940px;
+    background: linear-gradient(rgb(27, 27, 27), black,rgb(27, 27, 27));
+    height: 51px;
+    padding: 15px;
+    text-align: center;
+}
+#navbar ul li{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    display: inline;
+    margin-left: 25px;
+
+
+}
